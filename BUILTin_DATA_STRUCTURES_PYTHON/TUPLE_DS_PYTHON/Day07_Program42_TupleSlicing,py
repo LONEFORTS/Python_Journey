@@ -1,6 +1,7 @@
 # TUPLE SLICING: Extracts specific parts (subsets) of a tuple
 # Create a tuple with 6 elements
 # Indexing starts at 0: apple(0), to meon(5)...
+
 fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon")
 print("Full Tuple:", fruits)
 
@@ -12,20 +13,24 @@ print("Elements from index 1 to 3:", fruits[1:4])
 # 2. Slicing from the beginning [:stop]
 # If you leave the start blank, Python starts from index 0
 # Output can be: ('apple', 'banana', 'cherry')
+
 print("First three elements:", fruits[:3])
 
 # 3. Slicing to the end [start:]
 # If you leave the stop blank, it goes all the way to the last item
 # Output :('orange', 'kiwi', 'melon')
+
 print("Elements from index 3 to end:", fruits[3:])
 
 # 4. Negative Slicing [-start:]
 # This starts counting from the right side of the tuple
 # -1 is 'melon', -2 is 'kiwi'
 # Expected: ('kiwi', 'melon')
+
 print("Last two elements:", fruits[-2:])
 
 # 5. Slicing with Step [start:stop:step]
 # Grabs every second element in the range
 # O/P: ('apple', 'cherry', 'kiwi')
+
 print("Every second element:", fruits[0:6:2])
