@@ -1,4 +1,4 @@
-# Day 05: Final Project - Personal Expense Tracker
+# Project - Personal Expense Tracker
 # Logic: Using Lists of Dictionaries to manage financial data.
 
 def main():
